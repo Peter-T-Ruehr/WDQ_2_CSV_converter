@@ -17,6 +17,8 @@ This is a convenient addition to remove the ``__pycache__`` after running the sc
   * place the files ``WDQ_2_CSV.py`` and ``windaq.py`` in the same folder as your ``*.WDQ`` files
   * open a command prompt in that folder (e.g. by typing ``cmd`` in the Explorer address bar)
   * run the conversion script via the command ``python WDQ_2_CSV.py`` in the command prompt
+  * rounding and multiplying of time values can be avtivated by un-commenting the lines ``df = df.round({'t': 2, 'voltage': 6})`` and ``df.t *= 1000``, respectively
+  * plotting each measurement can be activated by un-commenting the lines starting with ``import matplotlib.pyplot as plt``
  
  ## Operating systems
  Tested with Python 3.9 on a Windows 10 machine for files recorded with a DATAQ DI-149 data acquisition device.
