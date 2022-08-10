@@ -1,8 +1,8 @@
-# windaq WQD converter
+# DATAQ WinDaq WDQ to CSV converter
 
 This project is based on the [windaq3](https://github.com/sdp8483/windaq3) DATAQ file importer by [Sam Perry](https://github.com/sdp8483).
 
-I have added a loop to automatically convert all files with the *.WDQ into csv format and save them in the same folder as the original files.
+I have added a loop to automatically convert all files with the ``*.WDQ`` into ``csv`` format and save them in the same folder as the original files. WinDaq WDQ is the proprietary file format of the WinDaq [Recording and Playback Software](https://www.dataq.com/products/windaq/).
 
 This version is meant for time series where column one will be called 't' and column two 'voltage'. These names can be changed in the lines starting from 'df = pd.DataFrame({', and new columns can be added there too. 
 
@@ -18,4 +18,4 @@ This is a convenient addition to remove the ``\_\_pycache\_\_`` after running th
   * open a command prompt in that folder (e.g. by typing ``cmd`` in the Explorer address bar)
   * run the conversion script via the command ``python WDQ_2_CSV.py`` in the command prompt
  
- Tested with Python 3.9 on a Windows 10 machine.
+ Tested with Python 3.9 on a Windows 10 machine for files recorded with a DATAQ DI-149 data acquisition device and the WinDaq Waveform Browser.
