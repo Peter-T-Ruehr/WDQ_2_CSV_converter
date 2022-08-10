@@ -9,7 +9,7 @@ This version was written to convert time series with two columns. Column one wil
 Before proceeding, make sure you have ``Python 3`` correctly installed.
 
 ## Obligatory installation of ``pyclean``
-This is a convenient addition to remove the ``\_\_pycache\_\_`` after running the script. It is, however, not mandatory. If you do not install ``pyclean``, the script will end successfully, but with an error message.
+This is a convenient addition to remove the ``__pycache__`` after running the script. It is, however, not mandatory. If you do not install ``pyclean``, the script will end successfully, but with an error message.
   * if ``pip`` is not installed yet, install it from [here](https://pip.pypa.io/en/stable/installation/)
   * run ``pip install pyclean`` in a command prompt to install pyclean
 
