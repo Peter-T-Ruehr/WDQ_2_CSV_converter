@@ -18,4 +18,5 @@ This is a convenient addition to remove the ``\_\_pycache\_\_`` after running th
   * open a command prompt in that folder (e.g. by typing ``cmd`` in the Explorer address bar)
   * run the conversion script via the command ``python WDQ_2_CSV.py`` in the command prompt
  
+ ## Operating systems
  Tested with Python 3.9 on a Windows 10 machine for files recorded with a DATAQ DI-149 data acquisition device and the WinDaq Waveform Browser.
