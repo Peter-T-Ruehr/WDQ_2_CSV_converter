@@ -14,8 +14,8 @@ This is a convenient addition to remove the ``\_\_pycache\_\_`` after running th
   * run ``pip install pyclean`` in a command prompt to install pyclean
 
 ## Usage
-  * place the files ``DAQ_2_CSV.py`` and ``windaq.py`` in the same folder as your ``*.WDQ`` files
+  * place the files ``WDQ_2_CSV.py`` and ``windaq.py`` in the same folder as your ``*.WDQ`` files
   * open a command prompt in that folder (e.g. by typing ``cmd`` in the Explorer address bar)
-  * run ``DAQ_2_CSV.py`` via the command ``python DAQ_2_CSV.py`` in the command prompt
+  * run the conversion script via the command ``python WDQ_2_CSV.py`` in the command prompt
  
- I have only tested this with Python 3.9 on Windows 10.
+ Tested with Python 3.9 on a Windows 10 machine.
