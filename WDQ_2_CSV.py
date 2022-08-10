@@ -56,6 +56,6 @@ for file in os.listdir("."):
         print('*************************')
        
 # remove pycache folder
-os.popen('find . | grep -E "(__pycache__|\.pyc|\.pyo$)" | xargs rm -rf')
+os.popen('pyclean .')
        
 print('All done!')
