@@ -2,7 +2,7 @@
 
 This project is based on the [windaq3](https://github.com/sdp8483/windaq3) DATAQ file importer by [Sam Perry](https://github.com/sdp8483). I have made no changes to that project's ``windaq.py`` (retrieved 2022-08-10) and used the ``example.ipynb`` (retrieved 2022-08-10) to create my ``WDQ_2_CSV.py``.
 
-Here, I have added a loop to automatically convert all files with the ``*.WDQ`` into ``csv`` format and save them in in a subfolder called ``csv``. WinDaq ``*.WDQ`` is the proprietary, non-human readable file format of the [WinDaq Recording and Playback Software](https://www.dataq.com/products/windaq/).
+Here, I have added a loop to automatically convert all files with the ``*.WDQ`` extension into ``csv`` format and save them in in a subfolder called ``csv``. WinDaq ``*.WDQ`` is the proprietary, non-human readable file format of the [WinDaq Recording and Playback Software](https://www.dataq.com/products/windaq/).
 
 This version was written to convert time series with two columns. Column one will be called ``t`` and column two ``voltage``. These names can be changed in the lines starting from ``df = pd.DataFrame({`` and new column names can be added there, too.
 
